@@ -18,17 +18,17 @@ making it easier for scientists to extract meaningful insights from complex brai
 Key features:
 - Automated preprocessing of EEG data
 - Advanced filtering techniques
-- Feature extraction (e.g. power spectral desnity, coherence)
-- Interactivve visualizations
-- Statististical analysis of EEG features
+- Feature extraction (e.g. power spectral density, coherence)
+- Interactive visualizations
+- Statistical analysis of EEG features
 
 Applications:
 - Identifying markers of neurological disorders such as epilepsy, Alzheimer's
 - Studying cognitive processes such as memory retention and decision making processes
-- Developing brain-computer interfaces for assisitive technologies
+- Developing brain-computer interfaces for assistive technologies
 
 Key aim
 - To reduce time spent on the tedious process of data manipulation and processing, 
 allowing researchers to focus more on interpreting results and advancing their understanding of brain functions.
 
-  print(textwrap.dedent(intro_text))
+print(textwrap.dedent(intro_text))
