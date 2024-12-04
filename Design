@@ -1,1 +1,22 @@
+from graphviz import Digraph    # Import of library - Graphviz
+
+dot = Digraph(comment='EEG Data Processing Flow')
+dot.attr(rankdir='TB', size='8,8')
+
+dot.node('A', 'Input EEG Data')
+dot.node('B', 'Preprocessing')
+dot.node('C', 'Filtering')
+dot.node('D', 'Feature Extraction')
+dot.node('E', 'Visualization')
+dot.node('F', 'Output Results')
+
+dot.edge('A', 'B')
+dot.edge('B', 'C')
+dot.edge('C', 'D')
+dot.edge('D', 'E')
+dot.edge('E', 'F')
+
+dot.render('EEG_processing_flow',format='png', cleanup=True)
+print("Flow diagram has been generated as 'EEG_processing_flow.png'")
+
 
