@@ -28,7 +28,7 @@ def display_introduction():
   - Developing brain-computer interfaces for assistive technologies
 
   Key aim
-  - To reduce time spent on the tedious process of data manipulation and processing, 
+  - To reduce time spent on the time-consuming yet critical process of EEG data analysis, 
   allowing researchers to focus more on interpreting results and advancing their understanding of brain functions.
   """
   print(textwrap.dedent(intro_text))
