@@ -1,4 +1,5 @@
-from graphviz import Digraph    # Import of library - Graphviz
+# Import of library - Graphviz
+from graphviz import Digraph   
 
 dot = Digraph(comment='EEG Data Processing Flow')
 dot.attr(rankdir='TB', size='8,8')
