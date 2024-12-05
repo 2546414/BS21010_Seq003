@@ -26,6 +26,8 @@ def time_frequency_analysis(data):
   return f, t, Sxx
 
 f, t, Sxx= time_frequency_analysis(flitered_eeg)
+freqs, power = frequency_analysis(filtered_eeg)
+f, t, Sxx = time_frequency_analysis(filtered_eeg)
 
 # Plotting
 plt.figure(figsize=(15, 10))
